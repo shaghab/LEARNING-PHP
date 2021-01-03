@@ -11,5 +11,18 @@ echo '<br>' . $colors[0] . '<br>';
 
 print_r( $colors );
 
+// Associative Arrays
+
+$home_towns = array(
+    'Joe' => 'London',
+    'Marry' => 'New York',
+    'Anna' => 'Beijing',
+);
+
+echo '<pre>';
+print_r ( $home_towns );
+echo '</pre><br>';
+
+echo $home_towns['Marry'];
 
 ?>
