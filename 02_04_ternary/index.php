@@ -7,6 +7,14 @@
         echo 'nothing is true<br>';
 
     }
-    echo 'out of ...';
+    echo 'out of ... <br>';
+
+    $is_logged_in = true;
+
+    if ($is_logged_in):
+        echo "User is logged in";
+    else:
+        echo "User is not logged in";
+    endif;
 
 ?>
