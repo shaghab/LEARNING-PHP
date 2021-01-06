@@ -12,9 +12,13 @@
     $is_logged_in = true;
 
     if ($is_logged_in):
-        echo "User is logged in";
+        echo "User is logged in<br>";
     else:
-        echo "User is not logged in";
+        echo "User is not logged in<br>";
     endif;
+
+    $message = $is_logged_in?"Welcome back":"Hello there";
+
+    echo $message;
 
 ?>
