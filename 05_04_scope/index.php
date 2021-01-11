@@ -1,7 +1,7 @@
 <?php
 
     function double( &$a) {
-        return $a = $a + 2;
+        return $a = $a ** 2;
     }
 
     $a = 5;
@@ -13,5 +13,15 @@
     $b = 8;
 
     echo $a.'<br>';
+
+    $numbers = array (1,2,3,4);
+
+    foreach( $numbers as &$number) {
+        double($number);
+    }
+
+    echo '<pre>';
+    print_r ($numbers);
+    echo '</pre>';
 
 ?>
