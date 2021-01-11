@@ -7,6 +7,11 @@
     $a = 5;
     echo double($a).'<br>';
 
-    echo $a;
+    echo $a.'<br>';
+    $b = &$a;
+
+    $b = 8;
+
+    echo $a.'<br>';
 
 ?>
