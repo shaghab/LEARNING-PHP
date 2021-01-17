@@ -27,4 +27,23 @@
     $bill = new Person ('Bill', 'Gates');
     $walt = new Person ('Walt', 'Disney');
     $bob = new Person ('Bob', 'Iger');
+
+    $people = array ($rob, $joe, $erin, $steve, $bill, $walt, $bob);
+    
+    echo '<pre>';
+    print_r ($people);
+    echo '</pre>';
+
+    usort ($people, function ($a, $b) {
+        if ($a->get_last_name() == $b->get_last_name()) {
+            return $a->get_first_name() <=> $b->get_first_name();
+        } else {
+            return $a->get_last_name() <=> $b->get_last_name();
+        }
+
+    });
+
+    echo '<pre>';
+    print_r ($people);
+    echo '</pre>';
 ?>
