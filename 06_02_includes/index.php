@@ -1,8 +1,4 @@
-<?php
-    $title = 'Learning PHP Template';
-    $description = 'Server Side Includes are cool!';
-    $author = 'Joe Casabona';
-?>
+<?php require 'variables.php'; ?>
 
 <html>
     <head>
