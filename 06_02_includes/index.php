@@ -1,4 +1,4 @@
-<?php require 'variables.php'; ?>
+<?php require 'inc/variables.php'; ?>
 
 <html>
     <head>
