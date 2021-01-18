@@ -35,11 +35,13 @@
     echo '</pre>';
 
     usort ($people, function ($a, $b) {
-        if ($a->get_last_name() == $b->get_last_name()) {
+        /*if ($a->get_last_name() == $b->get_last_name()) {
             return $a->get_first_name() <=> $b->get_first_name();
         } else {
             return $a->get_last_name() <=> $b->get_last_name();
-        }
+        }*/
+
+        return array($a->get_last_name(), $a->get_first_name()) <=> array($b->get_last_name(), $b->get_first_name());
 
     });
 
