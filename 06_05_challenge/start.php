@@ -1,8 +1,4 @@
-<?php 
-$title = 'Learning PHP Template Challenge';
-$description = 'Description goes here.';
-$author = 'Joe Casabona';
-?>
+<?php include 'variable.php' ?>
 <!doctype html>
 <html class="no-js" lang="">
 
