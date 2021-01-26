@@ -14,9 +14,7 @@
 		<?php include 'template\header.php' ?> 
 		<?php include 'template\main.php' ?> 
 	</div>
-	<footer>
-		<p>&copy; <?php echo $author; ?> - <?php echo date('Y'); ?></p>
-	</footer>
+	<?php include 'template\footer.php' ?> 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
