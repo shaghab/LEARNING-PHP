@@ -17,12 +17,13 @@ $author = 'Joe Casabona';
 	<div class="wrapper">
 		<header>
 			<h1><?php echo $title; ?></h1>
-			<nav>
+			<?php include 'template\nav.php' ?> 
+			<!--nav>
 				<ul>
 					<li><a href="about.php">About Me</a></li>
 					<li><a href="contact.php">Contact</a></li>
 				</ul>
-			</nav>
+			</nav-->
 		</header>
 		<main>
             <h2>Welcome!</h2>
