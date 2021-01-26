@@ -12,10 +12,7 @@
 <body>
 	<div class="wrapper">
 		<?php include 'template\header.php' ?> 
-		<main>
-            <h2>Welcome!</h2>
-            <p>Hello world! This is my PHP website!</p>
-        </main>
+		<?php include 'template\main.php' ?> 
 	</div>
 	<footer>
 		<p>&copy; <?php echo $author; ?> - <?php echo date('Y'); ?></p>
