@@ -13,7 +13,7 @@
 	<div class="wrapper">
 		<header>
 			<h1><?php echo $title; ?></h1>
-			<?php include 'template\nav.php' ?> 
+			<?php include 'template\header.php' ?> 
 			<!--nav>
 				<ul>
 					<li><a href="about.php">About Me</a></li>
