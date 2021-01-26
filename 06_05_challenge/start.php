@@ -11,16 +11,7 @@
 </head>
 <body>
 	<div class="wrapper">
-		<header>
-			<h1><?php echo $title; ?></h1>
-			<?php include 'template\header.php' ?> 
-			<!--nav>
-				<ul>
-					<li><a href="about.php">About Me</a></li>
-					<li><a href="contact.php">Contact</a></li>
-				</ul>
-			</nav-->
-		</header>
+		<?php include 'template\header.php' ?> 
 		<main>
             <h2>Welcome!</h2>
             <p>Hello world! This is my PHP website!</p>
